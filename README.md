@@ -1,6 +1,6 @@
 # Criando um plugin para o Cordova
 
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/aguirresabino/cordova-plugin-example/master/screenshot.png)
 
 ##  Iniciando projeto cordova
 
