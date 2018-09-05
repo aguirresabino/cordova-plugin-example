@@ -1,0 +1,17 @@
+{
+  "name": "HelloPlugin",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "helloPlugin.example",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Aguirre Sabino",
+  "license": "MIT"
+}

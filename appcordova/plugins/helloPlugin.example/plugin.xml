@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="helloPlugin.example" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>HelloPlugin</name>
+	<js-module name="HelloPlugin" src="www/HelloPlugin.js">
+		<clobbers target="cordova.plugins.HelloPlugin" />
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="HelloPlugin">
+				<param name="android-package" value="helloPlugin.example.HelloPlugin" />
+			</feature>
+		</config-file>
+		<config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <service android:name="helloPlugin.example.HelloPluginService" />
+        </config-file>
+		<source-file src="src/android/HelloPlugin.java" target-dir="src/helloPlugin/example/HelloPlugin" />
+		<source-file src="src/android/HelloPluginService.java" target-dir="src/helloPlugin/example/HelloPluginService" />
+	</platform>
+</plugin>

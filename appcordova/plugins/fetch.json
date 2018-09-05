@@ -1,0 +1,18 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "helloPlugin.example": {
+    "source": {
+      "type": "local",
+      "path": "/home/aguirresabino/workspace/estudos/cordova/appcordova/node_modules/HelloPlugin"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
