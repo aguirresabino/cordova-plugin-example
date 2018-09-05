@@ -47,7 +47,7 @@ var app = {
         };
         setTimeout( function(){
             debugger;
-            Cordova.exec(success, null, "HelloPlugin", "coolMethod", [10,20]);
+            Cordova.exec(success, null, "HelloPlugin", "coolMethod", ['Parametro enviado']);
         }, 10000);
     }
 };
