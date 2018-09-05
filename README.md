@@ -1,5 +1,7 @@
 # Criando um plugin para o Cordova
 
+![Screenshot]()
+
 ##  Iniciando projeto cordova
 
 `cordova create appcordova com.example.appcordova AppCordova`
@@ -20,9 +22,9 @@
 `plugman platform add -platform_name android`
 
 ## Criando o package.json
-`plugman createpackagejson [pasta do plugin]`
+`plugman createpackagejson HelloPlugin`
 
-## Adicionan o plugin ao projeto cordova
+## Adicionando o plugin ao projeto cordova
 `cordova plugin add HelloPlugin`
 
 ## Construindo aplicação
